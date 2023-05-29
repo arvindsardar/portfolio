@@ -1,3 +1,21 @@
 ---
 ---
-@import "main";
+// @import "main";
+
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.current {
+  color: green;
+	font-weight: bold;
+}
+.breadcrumb{
+	font-size: 0.8rem;
+}
+
+nav.catnav a{
+	color: gray;
+	&:visited{
+		color: orange;
+	}
+}

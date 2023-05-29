@@ -6,4 +6,4 @@ layout: default
 title: home
 ---
 
-hello world
+{% include galleryNav.html %}
