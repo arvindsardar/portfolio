@@ -5,10 +5,17 @@
     <title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <body class="xxx">
-		{% include mainNav.html %}
-		<h3>{{ site.title }}</h3>
-		<pre>{{page.url}}</pre>
-    {{ content }}
+  <body class="default">
+		<header>
+			{% include mainNav.html %}
+		</header>
+		<main>
+			<pre>{{page.url}}</pre>
+			<h3>{{ site.title }}</h3>
+			{{ content }}
+		</main>
+		<footer>
+			&copy; {{site.time | date: "%Y"}} Arvind Sardar
+		</footer>
   </body>
 </html>

@@ -1,7 +1,16 @@
 ---
 ---
-// @import "main";
+@import "_normalize";
+@import "_fonts";
 
+
+/* layout */
+header, main, footer{
+	border: dotted silver 1px;
+	padding: 30px;
+}
+
+/* typography */
 html, body{
 	font-family: Arial, Helvetica, sans-serif;
 }
