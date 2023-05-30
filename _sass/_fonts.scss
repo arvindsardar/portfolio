@@ -1,101 +1,55 @@
 /* SEE https://google-webfonts-helper.herokuapp.com/fonts */
-	/* montserrat-200 - latin */
+	/* spline-sans-regular - latin */
 	@font-face {
-		font-family: 'Montserrat';
-		font-style: normal;
-		font-weight: 200;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-200italic - latin */
-	@font-face {
-		font-family: 'Montserrat';
-		font-style: italic;
-		font-weight: 200;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-regular - latin */
-	@font-face {
-		font-family: 'Montserrat';
+		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+		font-family: 'Spline Sans';
 		font-style: normal;
 		font-weight: 400;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		src: url('../fonts/spline-sans-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 	}
-	/* montserrat-italic - latin */
+	/* spline-sans-700 - latin */
 	@font-face {
-		font-family: 'Montserrat';
-		font-style: italic;
-		font-weight: 400;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-700 - latin */
-	@font-face {
-		font-family: 'Montserrat';
+		font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+		font-family: 'Spline Sans';
 		font-style: normal;
 		font-weight: 700;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-700italic - latin */
-	@font-face {
-		font-family: 'Montserrat';
-		font-style: italic;
-		font-weight: 700;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-900 - latin */
-	@font-face {
-		font-family: 'Montserrat';
-		font-style: normal;
-		font-weight: 900;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-	}
-	/* montserrat-900italic - latin */
-	@font-face {
-		font-family: 'Montserrat';
-		font-style: italic;
-		font-weight: 900;
-		src: local(''),
-			url('fonts/montserrat/montserrat-v18-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-			url('fonts/montserrat/montserrat-v18-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		src: url('../fonts/spline-sans-v9-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 	}
 
-/* merriweather-300 - latin */
+
+	/* bungee-hairline-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 300;
-  src: url('./fonts/merriweather/merriweather-v30-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('./fonts/merriweather/merriweather-v30-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* merriweather-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Merriweather';
+  font-family: 'Bungee Hairline';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/merriweather/merriweather-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('./fonts/merriweather/merriweather-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../fonts/bungee-hairline-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* merriweather-700 - latin */
+
+/* zen-dots-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Merriweather';
+  font-family: 'Zen Dots';
   font-style: normal;
-  font-weight: 700;
-  src: url('./fonts/merriweather/merriweather-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-       url('./fonts/merriweather/merriweather-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: 400;
+  src: url('../fonts/zen-dots-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* pompiere-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Pompiere';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pompiere-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* cabin-sketch-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cabin-sketch-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+

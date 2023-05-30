@@ -6,16 +6,20 @@
 		<link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body class="default">
-		<header>
-			{% include mainNav.html %}
-		</header>
-		<main>
-			<pre>{{page.url}}</pre>
-			<h3>{{ site.title }}</h3>
-			{{ content }}
-		</main>
-		<footer>
-			&copy; {{site.time | date: "%Y"}} Arvind Sardar
-		</footer>
+		<div class="page">
+			<header>
+				{% include mainNav.html %}
+			</header>
+			<div class="content">
+				<main>
+					<pre>{{page.url}}</pre>
+					<h3>{{ site.title }}</h3>
+					{{ content }}
+				</main>
+				<footer>
+					&copy; {{site.time | date: "%Y"}}
+				</footer>
+			</div>
+		</div>
   </body>
 </html>

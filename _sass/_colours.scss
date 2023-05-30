@@ -1,0 +1,20 @@
+	:root {
+		--brand1:	#00a579;
+		--brand2:	#926a59;
+		--brand3:	#9f7563;
+
+		--gray05: hsl(0, 0%, 95%);
+		--gray10: hsl(0, 0%, 90%);
+		--gray20: hsl(0, 0%, 80%);
+		--gray30: hsl(0, 0%, 70%);
+		--gray40: hsl(0, 0%, 60%);
+		--gray50: hsl(0, 0%, 50%);
+		--gray60: hsl(0, 0%, 40%);
+		--gray70: hsl(0, 0%, 30%);
+		--gray80: hsl(0, 0%, 20%);
+		--gray90: hsl(0, 0%, 10%);
+
+		--light: var(--gray10);
+		--mid: var(--gray50);
+		--dark: var(--gray80);
+	}
