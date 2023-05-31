@@ -4,22 +4,21 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   </head>
   <body class="default">
 		<div class="page">
 			<header>
 				{% include mainNav.html %}
 			</header>
-			<div class="content">
-				<main>
-					<pre>{{page.url}}</pre>
-					<h3>{{ site.title }}</h3>
-					{{ content }}
-				</main>
-				<footer>
-					&copy; {{site.time | date: "%Y"}}
-				</footer>
-			</div>
+			<main>
+				<pre>{{page.url}}</pre>
+				<h3>{{ site.title }}</h3>
+				{{ content }}
+			</main>
+			<footer>
+				&copy; {{site.time | date: "%Y"}}
+			</footer>
 		</div>
   </body>
 </html>
