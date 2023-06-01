@@ -5,13 +5,14 @@
     <title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
 		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+		<script src="/assets/js/medium-zoom.min.js"></script>
   </head>
   <body class="default">
 		<div class="page">
-			<header>
+			<header class="masthead">
 				{% include mainNav.html %}
 			</header>
-			<main>
+			<main class="material">
 				<pre>{{page.url}}</pre>
 				<h3>{{ site.title }}</h3>
 				{{ content }}
