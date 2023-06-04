@@ -7,19 +7,18 @@
 		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 		<script src="/assets/js/medium-zoom.min.js"></script>
   </head>
-  <body class="default">
+  <body class="default {{ page.layout }}">
 		<div class="page">
 			<header class="masthead">
-				{% include mainNav.html %}
+				<div class="inner">
+					{% include mainNav.html %}
+				</div>
 			</header>
-			<main class="material">
-				<pre>{{page.url}}</pre>
-				<h3>{{ site.title }}</h3>
-				{{ content }}
+			<main class="content">
+				<div class="inner">
+					{{ content }}
+				</div>
 			</main>
-			<footer>
-				&copy; {{site.time | date: "%Y"}}
-			</footer>
 		</div>
   </body>
 </html>

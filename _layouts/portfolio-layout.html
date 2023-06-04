@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include nav_portfolio.html %}
+
+<section class="portf-display">
+	<img class="image__portf" src="{{page.img-url}}">
+	<div class="description">
+		<h1>{{ page.title }}</h1>
+		{{ content | mardownify}}
+	</div>
+</section>
+
+

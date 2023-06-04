@@ -1,0 +1,28 @@
+<div class="nav__portfolio">
+  <h2>Portfolio</h2>
+  <ul>
+    <li class="nav-heading">Web</li>
+    {% for page in site.pages %}
+    {% if page.tags contains 'web' %}
+    <li class="item">
+      <a href={{page.url}} style="background-image: url({{page.img-url}});">
+        <!-- <img src={{page.img-url}}> -->
+        <span class="title">{{page.title}}</span>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    <li class="nav-heading">Design</li>
+    {% for page in site.pages %}
+    {% if page.tags contains 'design' %}
+    <li class="item">
+      <a href={{page.url}}>
+        <img src={{page.img-url}}>
+        <span class="title">{{page.title}}</span>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
