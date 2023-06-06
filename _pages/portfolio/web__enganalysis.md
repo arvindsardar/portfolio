@@ -2,8 +2,8 @@
 layout: portfolio-layout
 title: Eng Analysis
 tags: web
-permalink: /portfolio/enganalysis/
-img-url: /assets/images/enganalysis.jpg
+permalink: /portfolio/web/enganalysis/
+img-url: /assets/images/web__enganalysis.jpg
 ---
 Co-designer & sole developer. The client is an engineering company that needed a modern design, clear UI and on-brand site to present their services.
 

@@ -38,7 +38,7 @@ sass:
 
 imagesurl: "/assets/images/"
 include: [_pages]
-tags: [portfolio, web, design, motion]
+tags: [portfolio, web, layout, motion]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

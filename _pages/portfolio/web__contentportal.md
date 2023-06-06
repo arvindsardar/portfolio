@@ -2,8 +2,8 @@
 layout: portfolio-layout
 title: Content Portal
 tags: [portfolio, web]
-permalink: /portfolio/contentportal/
-img-url: /assets/images/contentPortal.jpg
+permalink: /portfolio/web/contentportal/
+img-url: /assets/images/web__contentPortal.jpg
 ---
 A part of the problem was clients were not supplying web content in time for a scheduled build to commence leading to missed deadlines.
 

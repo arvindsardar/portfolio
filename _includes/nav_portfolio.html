@@ -1,28 +1,54 @@
 <div class="nav__portfolio">
-  <h2>Portfolio</h2>
-  <ul>
-    <li class="nav-heading">Web</li>
-    {% for page in site.pages %}
-    {% if page.tags contains 'web' %}
-    <li class="item">
-      <a href={{page.url}} style="background-image: url({{page.img-url}});">
-        <!-- <img src={{page.img-url}}> -->
-        <span class="title">{{page.title}}</span>
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-    <li class="nav-heading">Design</li>
-    {% for page in site.pages %}
-    {% if page.tags contains 'design' %}
-    <li class="item">
-      <a href={{page.url}}>
-        <img src={{page.img-url}}>
-        <span class="title">{{page.title}}</span>
-      </a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
+	<h2>Portfolio</h2>
+	<ul>
+
+		<li class="nav-heading">Web</li>
+		{% for page in site.pages %}
+		{% if page.tags contains 'web' %}
+		<li class="item">
+			<a href={{page.url}} style="background-image: url({{page.img-url}});">
+				<!-- <img src={{page.img-url}}> -->
+				<span class="title">{{page.title}}</span>
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+
+		<li class="nav-heading">Layout</li>
+		{% for page in site.pages %}
+		{% if page.tags contains 'layout' %}
+		<li class="item">
+			<a href={{page.url}}>
+				<img src={{page.img-url}}>
+				<span class="title">{{page.title}}</span>
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+
+		<li class="nav-heading">Motion</li>
+		{% for page in site.pages %}
+		{% if page.tags contains 'motion' %}
+		<li class="item">
+			<a href={{page.url}}>
+				<img src={{page.img-url}}>
+				<span class="title">{{page.title}}</span>
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+
+		<li id="abc" class="nav-heading">Illustration</li>
+		{% for page in site.pages %}
+		{% if page.tags contains 'illustration' %}
+		<li class="item">
+			<a href={{page.url}}>
+				<img src={{page.img-url}}>
+				<span class="title">{{page.title}}</span>
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
 
 </div>
