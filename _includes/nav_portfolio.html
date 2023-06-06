@@ -1,54 +1,52 @@
+{% assign currentpage = page.url  %}
+
 <div class="nav__portfolio">
 	<h2>Portfolio</h2>
 	<ul>
-
 		<li class="nav-heading">Web</li>
 		{% for page in site.pages %}
-		{% if page.tags contains 'web' %}
-		<li class="item">
-			<a href={{page.url}} style="background-image: url({{page.img-url}});">
-				<!-- <img src={{page.img-url}}> -->
+			{% if page.tags contains 'web' %}
+			<li id="{% if page.url == currentpage %}scroll-target{% endif %}" class="item{% if page.url == currentpage %} active{% endif %}">
+				<a id={{page.anchor}} href={{page.url}} style="background-image: url({{page.img-url}});"></a>
 				<span class="title">{{page.title}}</span>
-			</a>
-		</li>
-		{% endif %}
+			</li>
+			{% endif %}
 		{% endfor %}
 
 		<li class="nav-heading">Layout</li>
 		{% for page in site.pages %}
-		{% if page.tags contains 'layout' %}
-		<li class="item">
-			<a href={{page.url}}>
-				<img src={{page.img-url}}>
+			{% if page.tags contains 'layout' %}
+			<li id="{% if page.url == currentpage %}scroll-target{% endif %}" class="item{% if page.url == currentpage %} active{% endif %}">
+				<a id={{page.anchor}} href={{page.url}} style="background-image: url({{page.img-url}});"></a>
 				<span class="title">{{page.title}}</span>
-			</a>
-		</li>
-		{% endif %}
+			</li>
+			{% endif %}
 		{% endfor %}
 
 		<li class="nav-heading">Motion</li>
 		{% for page in site.pages %}
-		{% if page.tags contains 'motion' %}
-		<li class="item">
-			<a href={{page.url}}>
-				<img src={{page.img-url}}>
+			{% if page.tags contains 'motion' %}
+			<li id="{% if page.url == currentpage %}scroll-target{% endif %}" class="item{% if page.url == currentpage %} active{% endif %}">
+				<a id={{page.anchor}} href={{page.url}} style="background-image: url({{page.img-url}});"></a>
 				<span class="title">{{page.title}}</span>
-			</a>
-		</li>
-		{% endif %}
+			</li>
+			{% endif %}
 		{% endfor %}
 
 		<li id="abc" class="nav-heading">Illustration</li>
 		{% for page in site.pages %}
-		{% if page.tags contains 'illustration' %}
-		<li class="item">
-			<a href={{page.url}}>
-				<img src={{page.img-url}}>
+			{% if page.tags contains 'illustration' %}
+			<li id="{% if page.url == currentpage %}scroll-target{% endif %}" class="item{% if page.url == currentpage %} active{% endif %}">
+				<a id={{page.anchor}} href={{page.url}} style="background-image: url({{page.img-url}});"></a>
 				<span class="title">{{page.title}}</span>
-			</a>
-		</li>
-		{% endif %}
+			</li>
+			{% endif %}
 		{% endfor %}
 	</ul>
 
 </div>
+
+<script>
+	const element = document.getElementById("scroll-target");
+	element.scrollIntoView();
+</script>

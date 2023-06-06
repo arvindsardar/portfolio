@@ -2,6 +2,7 @@
 layout: portfolio-layout
 title: Content Portal
 tags: [portfolio, web]
+anchor: contentportal
 permalink: /portfolio/web/contentportal/
 img-url: /assets/images/web__contentPortal.jpg
 ---

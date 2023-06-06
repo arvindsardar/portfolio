@@ -2,6 +2,7 @@
 layout: portfolio-layout
 title: PGSR
 tags: [portfolio, web]
+anchor: pgsr
 permalink: /portfolio/web/pgsr/
 img-url: /assets/images/web__pgsr.jpg
 ---
