@@ -22,8 +22,9 @@ title: Gallery Project
 email: arvindsardar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio of Arvind Sardar
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: arvindsardar.github.io
+baseurl: ""
+url: "https://arvindsardar.github.io/"
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -34,7 +35,7 @@ plugins:
 
 sass:
     sass_dir: _sass
-    style: expanded
+    style: compressed
 
 imagesurl: "/assets/images/"
 include: [_pages]
