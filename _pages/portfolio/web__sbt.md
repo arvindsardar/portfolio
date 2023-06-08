@@ -1,7 +1,7 @@
 ---
 layout: portfolio-layout
 title: SBT
-tags: [portfolio, web]
+tags: [portfolio, inactive]
 anchor: sbt
 permalink: /portfolio/web/sbt/
 img-url: /assets/images/web__sbt.jpg

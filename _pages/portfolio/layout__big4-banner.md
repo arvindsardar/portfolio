@@ -1,6 +1,6 @@
 ---
 layout: portfolio-layout
-title: big4-banner
+title: Big4 Holiday Parks Printed Banner
 tags: [portfolio, layout]
 anchor: big4-banner
 permalink: /portfolio/layout/big4-banner/
