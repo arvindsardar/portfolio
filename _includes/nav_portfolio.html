@@ -1,7 +1,7 @@
 <div class="nav__portfolio">
 	<h1>Portfolio</h1>
 	<ul>
-		<li class="nav-heading">Web</li>
+		<li class="nav-heading">Selected Web Projects</li>
 		{% for page in site.pages %}
 			{% if page.tags contains 'web' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
@@ -11,7 +11,7 @@
 			{% endif %}
 		{% endfor %}
 
-		<li class="nav-heading">Layout</li>
+		<li class="nav-heading">Selected Layouts & Design Work</li>
 		{% for page in site.pages %}
 			{% if page.tags contains 'layout' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
@@ -21,7 +21,7 @@
 			{% endif %}
 		{% endfor %}
 
-		<li class="nav-heading">Motion</li>
+		<li class="nav-heading">Motion/Video examples</li>
 		{% for page in site.pages %}
 			{% if page.tags contains 'motion' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
@@ -31,7 +31,7 @@
 			{% endif %}
 		{% endfor %}
 
-		<li id="abc" class="nav-heading">Illustration</li>
+		<li id="abc" class="nav-heading">Illustration Work</li>
 		{% for page in site.pages %}
 			{% if page.tags contains 'illustration' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">

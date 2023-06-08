@@ -1,6 +1,6 @@
 ---
 layout: home-layout
-title: UI Designer | Web Developer | Graphic Design
+title: UI/UX Design | Web Development | Graphic Design
 permalink: /
 ---
 
