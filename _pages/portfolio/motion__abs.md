@@ -7,5 +7,5 @@ permalink: /portfolio/motion/abs-logo-anim/
 img-url: /assets/images/motion__abs.webp
 ---
 <video style="display:block; width: 50vw" autoplay controls>
-	<source src="/assets/images/motion__abs.mp4" type="video/mp4">
+	<source src="{{site.url}}/assets/images/motion__abs.mp4" type="video/mp4">
 </video>

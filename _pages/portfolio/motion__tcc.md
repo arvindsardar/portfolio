@@ -8,5 +8,5 @@ img-url: /assets/images/motion__tcc.webp
 ---
 
 <video style="display:block; width: 50vw" autoplay controls>
-	<source src="/assets/images/motion__tcc.mp4" type="video/mp4">
+	<source src="{{site.url}}/assets/images/motion__tcc.mp4" type="video/mp4">
 </video>
