@@ -23,7 +23,7 @@ email: arvindsardar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio of Arvind Sardar
 domain: arvindsardar.github.io
-baseurl: ""
+baseurl: "/portfolio"
 url: "https://arvindsardar.github.io"
 
 # Build settings
