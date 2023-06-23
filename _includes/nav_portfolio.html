@@ -5,7 +5,7 @@
 		{% for page in site.pages %}
 			{% if page.tags contains 'web' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
-				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.img-url | absolute_url}});"></a>
+				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.thumb-img-url | absolute_url}});"></a>
 				<span class="title">{{page.title}}</span>
 			</li>
 			{% endif %}
@@ -15,7 +15,7 @@
 		{% for page in site.pages %}
 			{% if page.tags contains 'layout' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
-				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.img-url | absolute_url}});"></a>
+				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.thumb-img-url | absolute_url}});"></a>
 				<span class="title">{{page.title}}</span>
 			</li>
 			{% endif %}
@@ -25,7 +25,7 @@
 		{% for page in site.pages %}
 			{% if page.tags contains 'motion' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
-				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.img-url | absolute_url}});"></a>
+				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.thumb-img-url | absolute_url}});"></a>
 				<span class="title">{{page.title}}</span>
 			</li>
 			{% endif %}
@@ -35,7 +35,7 @@
 		{% for page in site.pages %}
 			{% if page.tags contains 'illustration' %}
 			<li class="item{% if page.url == currentpage %} active{% endif %}">
-				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.img-url | absolute_url}});"></a>
+				<a id={{page.anchor}} href={{page.url | absolute_url}} style="background-image: url({{page.thumb-img-url | absolute_url}});"></a>
 				<span class="title">{{page.title}}</span>
 			</li>
 			{% endif %}

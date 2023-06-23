@@ -5,6 +5,7 @@ tags: [portfolio, web]
 anchor: contentportal
 permalink: /portfolio/web/contentportal/
 img-url: /assets/images/web__contentPortal.jpg
+thumb-img-url: /assets/images/thumbs/thumb__web__contentPortal.webp
 ---
 A part of the problem was clients were not supplying web content in time for a scheduled build to commence leading to missed deadlines.
 

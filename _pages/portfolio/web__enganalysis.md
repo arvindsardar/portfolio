@@ -5,6 +5,7 @@ tags: web
 anchor: enganalysis
 permalink: /portfolio/web/enganalysis/
 img-url: /assets/images/web__enganalysis.jpg
+thumb-img-url: /assets/images/thumbs/thumb__web__enganalysis.webp
 ---
 Co-designer & sole developer. The client is an engineering company that needed a modern design, clear UI and on-brand site to present their services.
 

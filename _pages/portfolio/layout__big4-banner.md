@@ -5,4 +5,5 @@ tags: [portfolio, layout]
 anchor: big4-banner
 permalink: /portfolio/layout/big4-banner/
 img-url: /assets/images/layout__big4-banner.jpg
+thumb-img-url: /assets/images/thumbs/thumb__layout__big4-banner.webp
 ---
