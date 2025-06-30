@@ -180,6 +180,9 @@ section.section{
 			border-radius: 8px;
 		}
 	}
+	footer.footer{
+		display: none;
+	}
 
 /*:: Custom Lightbox
 **************************************************/
