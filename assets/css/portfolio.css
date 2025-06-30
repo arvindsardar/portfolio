@@ -170,6 +170,14 @@ section.section{
 		.logo{
 			padding-block: 10px;
 		}
+		.logo > img {
+			height: auto;
+			-o-object-fit: contain;
+			object-fit: contain;
+			padding: 0;
+			width: auto;
+			border-radius: 8px;
+		}
 	}
 
 /*:: Custom Lightbox
