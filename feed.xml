@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Portfolio</title>
+    <link href="https://arvindsardar.github.io/portfolio/feed.xml" rel="self" />
+    <link href="https://arvindsardar.github.io/portfolio" />
+    <updated>2025-06-21T11:26:20+10:00</updated>
+    <author>
+        <name>Arvind</name>
+    </author>
+    <id>https://arvindsardar.github.io/portfolio</id>
+
+    <entry>
+        <title>first post</title>
+        <author>
+            <name>Arvind</name>
+        </author>
+        <link href="https://arvindsardar.github.io/portfolio/first-post/"/>
+        <id>https://arvindsardar.github.io/portfolio/first-post/</id>
+
+        <updated>2025-06-21T11:26:20+10:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
